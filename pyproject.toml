@@ -1,0 +1,17 @@
+[project]
+name = "practicabioinspirados"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Raul-Data21", email = "a01668152@tec.mx" }
+]
+requires-python = ">=3.14"
+dependencies = []
+
+[project.scripts]
+practicabioinspirados = "practicabioinspirados:main"
+
+[build-system]
+requires = ["uv_build>=0.13.0,<0.14.0"]
+build-backend = "uv_build"
